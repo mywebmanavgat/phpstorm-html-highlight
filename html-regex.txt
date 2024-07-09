@@ -1,0 +1,33 @@
+(<form|<input|<select|<textarea|<option|<label|<button).* (data-.*?)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (id)="
+(<form|<input|<select|<textarea|<label|<button).* (class)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (method)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (action)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (type)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (value)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (for)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (name)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (placeholder)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (min)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (max)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (selected)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (rows)="
+(<form|<input|<select|<textarea|<option|<label|<button).* (readonly)
+(<form|<input|<select|<textarea|<option|<label|<button).* (disabled)
+(<\/form>|<\/textarea>|<\/select>|<\/option>|<\/button>|<\/label>|<label>|<button>)
+
+
+(<table|<thead|<tbody|<tfoot|<tr|<td|<th).* (id)="
+(<table|<thead|<tbody|<tfoot|<tr|<td|<th).* (class)="
+(<table|<thead|<tbody|<tfoot|<tr|<td|<th).* (scope)="
+(<table|<thead|<tbody|<tfoot|<tr|<td|<th).* (colspan)="
+(<table|<thead|<tbody|<tfoot|<tr|<td|<th).* (data-.*?)="
+(<\/table>|<\/thead>|<\/tbody>|<\/tfoot>|<\/tr>|<\/td>|<\/th>|<th>|<table>|<thead>|<tbody>|<tfoot>|<tr>|<td>)
+
+
+(<a).* (class)="
+(<a).* (href)="
+(<a).* (title)="
+(<a).* (id)="
+(<a).* (data-.*?)="
+(<a>|<\/a>)
