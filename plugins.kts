@@ -1,5 +1,3 @@
-
-
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.editor.Editor
@@ -41,6 +39,9 @@ class InsertGetLangAction(private val withEcho: Boolean) : AnAction() {
             // İmleci tırnakların içine veya seçili metnin son tırnağından önce yerleştir
             val cursorOffset = insertOffset + textToInsert.indexOfLast { it == '\'' }
             caretModel.moveToOffset(cursorOffset)
+
+            // ✅ Seçimi kaldır
+            selectionModel.removeSelection()
         }
     }
 }
